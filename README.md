@@ -1,23 +1,25 @@
-pratica-led
+# pratica-sensorpresenca
+
 Discente: Matheus Luiz Pereira da Silva
 
 Docente: Amanda Paul Dull
 
-Simular no Tinkercad
+Esse repositório serve para a entrega da atividade de IoT referente ao sensor de presença.
 
-Vamos ligar o LED!
-O projeto vai utilizar um botão como entrada para controlar um LED como saída. Ao pressionar o botão, o Arduino altera o estado do LED — cada clique liga ou desliga, funcionando como um interruptor eletrônico.
+Lendo o sensor de presença
 
-  O Arduino lê o estado do botão pelo pino 7
-  Controla o LED pelo pino 10
+Em projetos de IoT, sensores e atuadores precisam ser integrados para que o sistema seja capaz de identificar eventos e executar ações automaticamente. Nesta atividade, utilizei o Tinkercad para replicar um circuito de sensor de presença (PIR) e LED, implementando o código para obter o funcionamento completo da solução.
 
-Materiais necessários
-Qtd	Componente
-1	  Placa Arduino UNO
-1	  Cabo USB
-1	  Protoboard
-1	  Resistor de 200 Ω ou 220 Ω
-1	  Resistor de 10 kΩ
-1	  Botão tipo push button
-1   LED vermelho difuso de 5 mm
-—	  Fios de jumper macho-macho
+* O Arduino lê o estado do sensor PIR pelo **pino 2**
+* Controla o LED pelo **pino 13**
+
+## Materiais necessários
+
+| Qtd | Componente |
+| 1 | Placa Arduino UNO |
+| 1 | Cabo USB |
+| 1 | Protoboard |
+| 1 | Sensor de presença (PIR) |
+| 1 | Resistor de 220 Ω |
+| 1 | LED vermelho difuso de 5 mm |
+| — | Fios de jumper macho-macho |
