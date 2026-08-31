@@ -6,7 +6,9 @@ Docente: Amanda Paul Dull
 
 Esse repositório serve para a entrega da atividade de IoT referente ao sensor de presença.
 
-Lendo o sensor de presença
+Simule: https://www.tinkercad.com/things/h88UncNpO2U-led
+
+## Enunciado: Lendo o sensor de presença
 
 Em projetos de IoT, sensores e atuadores precisam ser integrados para que o sistema seja capaz de identificar eventos e executar ações automaticamente. Nesta atividade, utilizei o Tinkercad para replicar um circuito de sensor de presença (PIR) e LED, implementando o código para obter o funcionamento completo da solução.
 
@@ -16,6 +18,7 @@ Em projetos de IoT, sensores e atuadores precisam ser integrados para que o sist
 ## Materiais necessários
 
 | Qtd | Componente |
+| :--- | :--- |
 | 1 | Placa Arduino UNO |
 | 1 | Cabo USB |
 | 1 | Protoboard |
